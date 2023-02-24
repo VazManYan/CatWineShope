@@ -1,0 +1,83 @@
+.Head {
+  width: 100%;
+  margin: 50px;
+  display: flex;
+  height: 95px;
+  padding: 2px;
+  position: relative;
+  align-items: center;
+}
+.GetHome {
+    width: 10%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .GetHome li a {
+    padding: 25px;
+  }
+
+  .log {
+    background-image: url(/Pictures/pets.png);
+    background-size: 100%;
+    display: inline;
+    
+  }
+ 
+  .nav{
+    display: flex;
+    width:  73%;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    height: 95px;
+    justify-content:flex-end;
+  }
+
+  div li {
+    display: flex;
+    
+  }
+  div li a{
+    display: flex;
+    padding: 25px; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .soc {
+    display: flex;
+    width: 25%;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 50px;
+    height: 95px;
+    
+    
+  }
+
+  .soc li {
+    
+    margin: 20px;
+    
+  }
+  .soc li a{
+    
+    padding: 20px; 
+    
+  }
+
+ .face {
+        background-image: url(/Pictures/facebook.png);
+        background-size: 100%;
+        display: inline;       
+ }
+
+ .insta {  
+        background-image: url(/Pictures/instagram.png);
+        background-size: 100%;
+        display: inline;     
+ }
+  

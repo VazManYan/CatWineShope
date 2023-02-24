@@ -1,0 +1,44 @@
+.footerStyle {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+}
+.footerHeader{
+    height: 40px;
+    width: 100%;
+}
+.footerHeader div{
+    width: 30%;
+    float: left;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.footerHeader div:first-child{
+    margin-left: 10%;
+}
+.footerParagraf{
+    height: 200px;
+}
+
+.footerParagraf div{
+    width: 30%;
+    float: left;
+    height: 200px;
+    font-size: 14px;
+    font-style: italic;
+}
+.footerParagraf div:first-child{
+    margin-left: 10%;
+}
+ 
+.faStyle {
+    text-align: left;
+    margin: 18px;
+    font-size: 30px;
+
+}
