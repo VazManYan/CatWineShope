@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Handlee&family=Josefin+Sans&family=Kaushan+Script&family=Lora&family=PT+Serif&family=Quicksand&family=Rancho&family=Roboto+Condensed&family=Roboto+Slab:wght@300&family=Srisakdi&display=swap');
+
+.Story {
+    width: 100%;
+    height: 1500px;
+    
+
+}
+
+.WineHouse {
+    background: url("/Pictures/WineHousePicture.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.ParMurmur {
+ text-align:right;
+ font-weight:500;
+ font-style: italic;
+ padding: 10px;
+ font-size: 20px;
+ font-family: 'Handlee', cursive;
+}
+
+.StoryMurmur {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    margin: 7%; 
+}
+
+.StoryText {
+    width: 60%;
+    font-size: 25px;
+    color: rgb(95, 5, 5);
+    text-align: justify;
+    font-weight: bold;
+    margin: 15px;
+    font-family: 'Handlee', cursive;
+    line-height: 40px;
+
+}
+
+.TomMurmur {
+    width: 20%;
+    background: url(/Pictures/TomMurmur.jpg);
+    background-size: 100%;
+    background-position: top;
+    margin: 20px;
+    border-radius: 160px;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67);
+}
+
+.TomMurmur:hover {
+    transform: scale(1.05);
+}
+
+.ChefInfo {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    margin: 7%; 
+}
+
+.KittyMyau{
+    width: 20%;
+    background: url(/Pictures/KittyMyau.jpg);
+    background-size: 100%;
+    background-position: top;
+    margin: 15px;
+    border-radius: 160px;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67);
+}
+
+.KittyMyau:hover{
+    transform: scale(1.05);
+}
+
+.KittyInfo{
+    width: 60%;
+    font-size: 25px;
+    color: rgb(95, 5, 5);
+    text-align: justify;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: 'Handlee', cursive;
+    line-height: 50px;
+    margin: 20px;
+}

@@ -1,0 +1,107 @@
+.Home {
+   
+   height: 630px;
+   margin-left: 5%;
+   margin-right: 5%;
+   border: solid green;
+ 
+}
+.tabList {
+    display: flex;
+}
+.tabHeadWine {
+    height: 150px;
+    width: 25%;
+    background: url(/Pictures/wine-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+   
+}
+
+.tabHeadWine:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadWine p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadCheese {
+    height: 150px;
+    width: 25%;
+    background: url(/Pictures/cheese-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+
+.tabHeadCheese:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadCheese p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadFish {
+    height: 150px;
+    width: 25%;
+    background: url(/Pictures/fish-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+
+.tabHeadFish:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadFish p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tabHeadSalad {
+    height: 150px;
+    width: 25%;
+    background: url(/Pictures/salad-menu.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 0.7s cubic-bezier(.72,.99,.83,.67)
+}
+.tabHeadSalad:hover{
+    transform: scale(1.05);
+}
+
+.tabHeadSalad p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

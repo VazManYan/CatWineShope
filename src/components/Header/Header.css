@@ -1,6 +1,7 @@
 .Head {
-  width: 100%;
-  margin: 50px;
+  margin-top: 5px;
+  margin-left: 5%;
+  margin-right: 5%px;
   display: flex;
   height: 95px;
   padding: 2px;
@@ -48,11 +49,10 @@
 
   .soc {
     display: flex;
-    width: 25%;
     position: relative;
     box-sizing: border-box;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
     height: 95px;
     
     
