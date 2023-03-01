@@ -14,14 +14,14 @@ const Slide = () => {
     
   ];
   const containerStyles = {
-    width: "1360px",
+    width: "1367px",
     height: "420px",
    
   };
   return (
     <div>
       <div style={containerStyles}>
-        <ImageSlider slides={slides} parentWidth={1360} />
+        <ImageSlider slides={slides} parentWidth={1367} />
       </div>
     </div>
   );
