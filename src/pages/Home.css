@@ -3,18 +3,20 @@
    height: 630px;
    margin-left: 5%;
    margin-right: 5%;
-   border: solid green;
+   
  
 }
 .tabList {
     display: flex;
+    background-color: antiquewhite;
 }
 .tabHeadWine {
     height: 150px;
-    width: 25%;
+    width: 24%;
     background: url(/Pictures/wine-menu.jpg);
     background-size: 100%;
     background-position: center;
+    margin-right: auto;
     transition: 0.7s cubic-bezier(.72,.99,.83,.67)
    
 }
@@ -36,11 +38,11 @@
 
 .tabHeadCheese {
     height: 150px;
-    width: 25%;
+    width: 24%;
     background: url(/Pictures/cheese-menu.jpg);
     background-size: 100%;
     background-position: center;
-    color: white;
+    margin: auto;
     transition: 0.7s cubic-bezier(.72,.99,.83,.67)
 }
 
@@ -61,10 +63,11 @@
 
 .tabHeadFish {
     height: 150px;
-    width: 25%;
+    width: 24%;
     background: url(/Pictures/fish-menu.jpg);
     background-size: 100%;
     background-position: center;
+    margin: auto;
     transition: 0.7s cubic-bezier(.72,.99,.83,.67)
 }
 
@@ -85,10 +88,11 @@
 
 .tabHeadSalad {
     height: 150px;
-    width: 25%;
+    width: 24%;
     background: url(/Pictures/salad-menu.jpg);
     background-size: 100%;
     background-position: center;
+    margin-left: auto;
     transition: 0.7s cubic-bezier(.72,.99,.83,.67)
 }
 .tabHeadSalad:hover{
@@ -104,4 +108,11 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.SlideDiv {
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    
 }
