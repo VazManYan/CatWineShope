@@ -1,6 +1,10 @@
 import React, { useState } from "react";
+import Cheeses from "./Cheeses";
+import Fishes from "./Fishes";
 import "./Home.css";
+import Salads from "./Salads";
 import Slide from "./Slide";
+import Wines from "./Wines";
 function Home(){
     const[index,setIndex] = useState(0);
     return(
@@ -24,15 +28,15 @@ function Home(){
             <Slide/>
           </div>
           <div className="tabHeadWineInfo" hidden = {index !== 1}>
-                <h1>WINE INFO</h1>
+                <Wines/>
           </div>
           <div className="tabHeadCheeseInfo" hidden = {index !== 2}>
-                <h1>CHEESE INFO</h1>
+                <Cheeses/>
           </div>
           <div className="tabHeadSaladInfo" hidden = {index !== 3}>
-                <h1>FISH INFO</h1>
+                <Fishes/>
           </div><div className="tabHeadFishInfo" hidden = {index !== 4}>
-                <h1>SALAD INFO</h1>
+                <Salads/>
           </div>
           
 
